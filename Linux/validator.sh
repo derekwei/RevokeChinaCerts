@@ -12,20 +12,17 @@ base() {
 
 extended() {
     "$SOURCE_DIR/../Mac/test/test-url.sh" \
-      https://cstest.cfca.com.cn/ \
-      https://cs.cfca.com.cn/ \
-      https://www.sheca.com/ \
       https://www.gdca.com.cn/ \
-      https://www.wosign.com/ \
-      https://root1evtest.wosign.com/ \
-      https://root2evtest.wosign.com/
+      https://cs.cfca.com.cn/ \
+      https://www.wosign.com/
 }
 
 all() {
     "$SOURCE_DIR/../Mac/test/test-url.sh" \
       https://www.hongkongpost.hk/ \
       https://epki.com.tw/ \
-      https://www.twca.com.tw/
+      https://www.twca.com.tw/ \
+      https://grca.nat.gov.tw/
 }
 
 echo "---------------------"
